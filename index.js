@@ -83,3 +83,4 @@ server.post('/login', async (req, res) => {
 server.listen(8085, () => {
     console.log("Server started at port 8085");
 });
+module.exports = server;
